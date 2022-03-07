@@ -13,6 +13,7 @@ impl Image{
     pub fn width(&self)->u32{
         return  self.raw.width();
     }
+
     pub fn height(&self)->u32{
         return  self.raw.height();
     }
